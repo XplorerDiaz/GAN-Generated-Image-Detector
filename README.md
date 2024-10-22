@@ -16,7 +16,9 @@ This project classifies images as either GAN-generated or real by leveraging Dis
 - `dct_heatmap(image_path)`: A function that converts the input image into its corresponding DCT heatmap for analysis and visualization.
 - `models/`: Directory containing the models used for classification.
 
+## Dataset
 
+I used this dataset from kaggle https://www.kaggle.com/datasets/muzzwalvanshikreddy/deepfake
 
 ## Usage
 
@@ -32,4 +34,4 @@ The custom model significantly outperforms the model mentioned in the paper and 
 
 ## References
 
-- **Paper Model**: [Leveraging Frequency Analysis for Deep Fake Image Recognition](https://example.com/paper-link](https://arxiv.org/abs/2003.08685)
+- **Paper Model**: [Leveraging Frequency Analysis for Deep Fake Image Recognition](https://arxiv.org/abs/2003.08685)
