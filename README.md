@@ -30,8 +30,11 @@ I used this dataset from kaggle https://www.kaggle.com/datasets/muzzwalvanshikre
 
 ## Results
 
-The custom model significantly outperforms the model mentioned in the paper and achieves an accuracy of 100% on the dataset. The saliency maps confirm that both models focus on the bottom-right corner of the DCT maps, where real images exhibit distinct changes, while GAN-generated images do not.
+The custom model significantly outperforms the model mentioned in the paper and achieves an accuracy of 99.9% on the dataset. The saliency maps confirm that both models focus on the bottom-right corner of the DCT maps, where real images exhibit distinct changes, while GAN-generated images do not.
 
 ## References
 
 - **Paper Model**: [Leveraging Frequency Analysis for Deep Fake Image Recognition](https://arxiv.org/abs/2003.08685)
+
+## Saved model
+You can directly download the trained model to use for your work
