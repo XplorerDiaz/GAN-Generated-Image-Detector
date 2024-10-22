@@ -16,17 +16,7 @@ This project classifies images as either GAN-generated or real by leveraging Dis
 - `dct_heatmap(image_path)`: A function that converts the input image into its corresponding DCT heatmap for analysis and visualization.
 - `models/`: Directory containing the models used for classification.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/gan-dct-classifier.git
-   cd gan-dct-classifier
-   ```
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -38,8 +28,8 @@ This project classifies images as either GAN-generated or real by leveraging Dis
 
 ## Results
 
-The custom model significantly outperforms the model mentioned in the paper. The saliency maps confirm that both models focus on the bottom-right corner of the DCT maps, where real images exhibit distinct changes, while GAN-generated images do not.
+The custom model significantly outperforms the model mentioned in the paper and achieves an accuracy of 100% on the dataset. The saliency maps confirm that both models focus on the bottom-right corner of the DCT maps, where real images exhibit distinct changes, while GAN-generated images do not.
 
 ## References
 
-- **Paper Model**: [Add citation to the paper you referenced here]
+- **Paper Model**: [Leveraging Frequency Analysis for Deep Fake Image Recognition](https://example.com/paper-link](https://arxiv.org/abs/2003.08685)
